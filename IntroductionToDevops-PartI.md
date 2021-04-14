@@ -1,6 +1,12 @@
 # Introduction to DevOps - Part I
 
-***Kaan Keskin, April 2021***
+Author: **Kaan Keskin**
+
+Date: April 2021
+
+Available at: https://github.com/kaan-keskin/introduction-to-devops
+
+### Introduction
 
 **DevOps** is short for **Dev**elopment and **Op**eration**s**.
 It concentrates on collaboration between developers and other parties involved in building, deploying, operating, and maintaining software systems.
@@ -11,7 +17,7 @@ DevOps is a software engineering culture that unites the development and operati
 
 **DevOps blends lean thinking with agile philosophy.**
 
-<img src="./images/IC-DevOps-Venn-Diagram.jpg" alt="DevOps Venn Diagram" style="zoom:20%;" />
+<img src="./images/IC-DevOps-Venn-Diagram.jpg" alt="DevOps Venn Diagram" style="zoom:15%;" />
 
 ## History of DevOps
 
@@ -84,7 +90,7 @@ Basically, the timeline goes something like this:
 
 ### How Developers See Ops
 
-![How Developers See Ops](./images/how-dev-see-ops.png)
+<img src="./images/how-dev-see-ops.png" alt="How Developers See Ops" style="zoom:75%;" />
 
 ### Developers World
 
@@ -101,7 +107,7 @@ Basically, the timeline goes something like this:
 
 ### How Ops See Developers
 
-![How Ops See Developers](./images/how-ops-see-dev.png)
+<img src="./images/how-ops-see-dev.png" alt="How Ops See Developers" style="zoom:75%;" />
 
 ### Test Team World
 
@@ -118,7 +124,7 @@ Basically, the timeline goes something like this:
 
 ### How Ops See Test Team
 
-![How Ops See Test Team](./images/how-ops-see-test-team.png)
+<img src="./images/how-ops-see-test-team.png" alt="How Ops See Test Team" style="zoom: 80%;" />
 
 ## Traditional Software Development Approach
 
@@ -165,14 +171,16 @@ Many in Japan credit Deming as one of the inspirations for what has become known
 - Improvement of product testing in the workplace and in research centers
 - Greater sales through side [global] markets
 
-Deming is best known in the United States for his **14 Points** (Out of the Crisis, by W. Edwards Deming, preface) and his system of thought he called the "**System of Profound Knowledge**". The system includes four components or "lenses" through which to view the world simultaneously:
+<img src="./images/lean-pillars.png" alt="Pillars of Lean" style="zoom:80%;" />
 
-- Appreciating a system
-- Understanding variation
-- Psychology
-- Epistemology, the theory of knowledge
+Lean management principles include:
 
-Deming made a significant contribution to Japan's reputation for innovative, high-quality products, and for its economic power. He is regarded as having had more impact on Japanese manufacturing and business than any other individual not of Japanese heritage. **Despite being honored in Japan in 1951 with the establishment of the Deming Prize, he was only just beginning to win widespread recognition in the United States at the time of his death in 1993.** President Ronald Reagan awarded him the National Medal of Technology in 1987. The following year, the National Academy of Sciences gave Deming the Distinguished Career in Science award. 
+- Defining value from the standpoint of the end customer.
+- Identifying each step in a business process and eliminating those steps that do not create value.
+- Making the value-creating steps occur in a tight sequence.
+- Repeating the first three steps on a continuous basis until all waste has been eliminated.
+
+These lean principles ensure that production and market launch remain cost-effective.
 
 Books written by W. Edwards Deming and fellows:
 
@@ -187,9 +195,6 @@ Books written by W. Edwards Deming and fellows:
 
 ![Edwards Deming Books](./images/deming-books.png)
 
-### Agile Manifesto
-<>
-
 ### Lean and Agile in DevOps
 
 - Lean: Management philosophy to eliminate waste across all aspects of business.
@@ -197,6 +202,22 @@ Books written by W. Edwards Deming and fellows:
 
 - Agile: Implementation of Lean for software development.
     - Short sprints
+
+### [Manifesto for Agile Software Development](https://agilemanifesto.org)
+
+```
+We are uncovering better ways of developing software by doing it and helping others do it.
+
+Through this work we have come to value:
+
+- Individuals and interactions over processes and tools
+- Working software over comprehensive documentation
+- Customer collaboration over contract negotiation
+- Responding to change over following a plan
+
+That is, while there is value in the items on the right, we value the items on the left more.
+
+```
 
 ### Relationship Between Agile and DevOps
 
