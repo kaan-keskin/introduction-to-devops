@@ -19,7 +19,7 @@ DevOps is a software engineering culture that unites the development and operati
 
 <img src="./images/IC-DevOps-Venn-Diagram.jpg" alt="DevOps Venn Diagram" style="zoom:15%;" />
 
-## History of DevOps
+## A Brief History of DevOps
 
 Basically, the timeline goes something like this:
 
@@ -156,7 +156,7 @@ Basically, the timeline goes something like this:
 
 <img src="./images/before-agile-methodologies.png" alt="Before Agile Methodologies" style="zoom:60%;" />
 
-## History of DevOps Methodologies
+## A Brief History of Agile Methodologies and Frameworks
 
 ### Lean Management Philosophy
 
@@ -182,6 +182,8 @@ Lean management principles include:
 
 These lean principles ensure that production and market launch remain cost-effective.
 
+![Lean Principles](./images/lean-principles.png)
+
 Books written by W. Edwards Deming and fellows:
 
 - Statistical Adjustment Of Data, 1943
@@ -190,20 +192,120 @@ Books written by W. Edwards Deming and fellows:
 - Quality Productivity and Competitive Position, 1982
 - **Out of the Crisis, 1982**
 - The New Economics for Industry, Government, Education, 2000
+- **Lean Software Development: An Agile Toolkit, 2003**
+- **The Lean Six Sigma Pocket Toolbook, 2004**
+- **The Lean Startup, 2011**
 - Statistical Method from the Viewpoint of Quality Control, 2012
 - The Essential Deming: Leadership Principles from the Father of Quality, 2012
 
 ![Edwards Deming Books](./images/deming-books.png)
 
-### Lean and Agile in DevOps
+### Kanban
+Kanban definition. Initially, it arose as **a scheduling system for lean manufacturing**, originating from the Toyota Production System (TPS).  
 
-- Lean: Management philosophy to eliminate waste across all aspects of business.
-    - Derived from Toyota Production System
+In the **late 1940s**, Toyota introduced “**just in time**” manufacturing to its production. The approach represents a pull system. This means that production is based on customer demand, rather than the standard push practice to produce goods and push them to the market.
 
-- Agile: Implementation of Lean for software development.
-    - Short sprints
+Their unique production system laid the foundation of Lean manufacturing or simply Lean. Its core purpose is minimizing waste activities without sacrificing productivity. The main goal is to create more value for the customer without generating more costs.
+
+#### The original Kanban System, Source: TOYOTA Global Website
+![Toyota Kanban System](./images/kanban-board-toyota.png)
+
+#### The 4 Kanban Core Principles
+
+- Principle 1: Start With What You Do Now
+- Principle 2: Agree to Pursue Incremental, Evolutionary Change
+- Principle 3: Respect the Current Process, Roles & Responsibilities
+- Principle 4: Encourage Acts of Leadership at All Levels
+
+![Kanban](./images/kanban.png)
+
+### [Scrum](https://www.scrum.org/)
+
+**Jeff Sutherland** and **Ken Schwaber** presented Scrum at **OOPSLA'95**. 
+
+[OOPSLA (Object-Oriented Programming, Systems, Languages & Applications) is an annual ACM research conference.]
+
+Scrum is a framework utilizing an agile mindset for developing, delivering, and sustaining complex products, with an initial emphasis on software development, although it has been used in other fields including research, sales, marketing and advanced technologies.
+
+It is designed for teams of ten or fewer members, who break their work into goals that can be completed within time-boxed iterations, called sprints, no longer than one month and most commonly two weeks.
+
+The Scrum Team assess progress in time-boxed daily meetings of 15 minutes or less, called daily scrums.
+
+At the end of the sprint, the team holds two further meetings: the sprint review which demonstrates the work done to stakeholders to elicit feedback, and sprint retrospective which enables the team to reflect and improve. 
+
+The main components of scrum framework are:
+
+- The scrum roles: scrum master, scrum product owner and the development team
+- The artefacts: sprint backlog, product backlog, burn down chart, log, etc
+- Scrum events: sprint planning, sprint review, daily stand-up, sprint retro, etc
+- Sprint
+
+![Scrum](./images/scrum.png)
+
+![Scrum Values](./images/scrum-values.png)
+
+![Scrum Principles](./images/scrum-principles.png)
+
+### [Extreme Programming (XP)](http://www.extremeprogramming.org/)
+
+**Kent Beck** developed extreme programming during his work on the Chrysler Comprehensive Compensation System (C3) payroll project. Beck became the C3 project leader in March 1996. 
+
+He began to refine the development methodology used in the project and wrote a book on the methodology (**Extreme Programming Explained, published in October 1999**). Chrysler cancelled the C3 project in February 2000, after seven years, when Daimler-Benz acquired the company.
+
+![Extreme Programming](./images/extreme-programming.png)
+
+Extreme Programming (XP) is an agile software development framework that aims to produce higher quality software, and higher quality of life for the development team. 
+
+XP is the most specific of the agile frameworks regarding appropriate engineering practices for software development.
+
+```
+Extreme Programming (XP) was created in response to problem domains whose requirements change.
+
+Your customers may not have a firm idea of what the system should do.
+
+You may have a system whose functionality is expected to change every few months.
+
+In many software environments dynamically changing requirements is the only constant.
+
+This is when XP will succeed while other methodologies do not.
+```
+
+#### The Values of Extreme Programming 
+
+**Simplicity:** **We will do what is needed and asked for, but no more.** This will maximize the value created for the investment made to date. We will take small simple steps to our goal and mitigate failures as they happen. We will create something we are proud of and maintain it long term for reasonable costs.
+
+**Communication:** **Everyone is part of the team and we communicate face to face daily.** We will work together on everything from requirements to code. We will create the best solution to our problem that we can together.
+
+**Feedback:** **We will take every iteration commitment seriously by delivering working software.** We demonstrate our software early and often then listen carefully and make any changes needed. We will talk about the project and adapt our process to it, not the other way around.
+
+**Respect:** **Everyone gives and feels the respect they deserve as a valued team member.** Everyone contributes value even if it's simply enthusiasm. Developers respect the expertise of the customers and vice versa. Management respects our right to accept responsibility and receive authority over our own work.
+
+**Courage:** **We will tell the truth about progress and estimates.** We don't document excuses for failure because we plan to succeed. We don't fear anything because no one ever works alone. We will adapt to changes when ever they happen.
+
+![Move fats and Break Things](./images/move-fast-and-break-things.jpg)
+
+#### XP Practices
+
+The core of XP is the interconnected set of software development practices listed below. While it is possible to do these practices in isolation, many teams have found some practices reinforce the others and should be done in conjunction to fully eliminate the risks you often face in software development.
+
+- The Planning Game
+- Small Releases
+- Metaphor
+- Simple Design
+- Testing
+- Refactoring
+- Pair Programming
+- Collective Ownership
+- Continuous Integration
+- 40-hour week
+- On-site Customer
+- Coding Standard
 
 ### [Manifesto for Agile Software Development](https://agilemanifesto.org)
+
+**The Agile Manifesto** was published in **February 2001** and is the work of **17 software development practitioners** who observed the increasing need for an alternative to documentation-driven and heavyweight software development processes.
+
+![Agile Manifesto Team](./images/agile-manifesto-team.jpg)
 
 ```
 We are uncovering better ways of developing software by doing it and helping others do it.
@@ -219,6 +321,31 @@ That is, while there is value in the items on the right, we value the items on t
 
 ```
 
+![Agile Manifesto Meeting](./images/agile-manifesto-meeting.jpeg)
+
+#### 12 Agile Principles
+
+The Manifesto for Agile Software Development is based on twelve principles:
+
+1. Customer satisfaction by early and continuous delivery of valuable software.
+2. Welcome changing requirements, even in late development.
+3. Deliver working software frequently (weeks rather than months)
+4. Close, daily cooperation between business people and developers
+5. Projects are built around motivated individuals, who should be trusted
+6. Face-to-face conversation is the best form of communication (co-location)
+7. Working software is the primary measure of progress
+8. Sustainable development, able to maintain a constant pace
+9. Continuous attention to technical excellence and good design
+10. Simplicity—the art of maximizing the amount of work not done—is essential
+11. Best architectures, requirements, and designs emerge from self-organizing teams
+12. Regularly, the team reflects on how to become more effective, and adjusts accordingly
+
+![12 Agile Principles](./images/12-agile-principles.png)
+
+### Benefits of Agile Development
+
+<img src="./images/benefits-of-agile-development.png" alt="Benefits of Agile Development" style="zoom:70%;" />
+
 ### Relationship Between Agile and DevOps
 
 - Satisfy customer through early and continuous delivery of valuable software.
@@ -228,52 +355,13 @@ That is, while there is value in the items on the right, we value the items on t
 - Improve the collaboration between all the teams.
 - Automate to create a potentially shippable increment.
 
-### Agile Project Management Example: Scrum
-
-![Scrum](./images/scrum.png)
-
-### Benefits of Agile Development
-
-<img src="./images/benefits-of-agile-development.png" alt="Benefits of Agile Development" style="zoom:70%;" />
-
 ### Lean, Agile, and DevOps Combined
 
 ![Lean, Agile, and DevOps Combined](./images/lean-agile-devops.png)
 
-### Extreme Programming (XP)
-
-- Focuses on Software Quality and Responding quickly to changing customer requirements.
-
-- Frequent releases and short dev cycles.
-
-- Improve productivity and interaction with customer.
-
-- Suggests:
-    - Paired programing
-    - Test Driven Development
-    - Continuous Integration
-    - Continuous Delivery
-
-![Extreme Programming](./images/extreme-programming.png)
-
-### Kanban
-
-- Japanese for "Signal Board"
-
-- 5 Core Principles:
-    - Visualize the Workflow
-    - Limit Work In Process
-    - Manage Flow
-    - Make Process Policies Explicit
-    - Improve Collaboratively
-
-![Kanban](./images/kanban.png)
-
 ### Putting It All Together
 
 ![Putting It All Together](./images/putting-it-all-together.png)
-
-
 
 ## Overview of DevOps - DevOps Phases
 
