@@ -235,8 +235,8 @@ At the end of the sprint, the team holds two further meetings: the sprint review
 
 The main components of scrum framework are:
 
-- The scrum roles: scrum master, scrum product owner and the development team
-- The artefacts: sprint backlog, product backlog, burn down chart, log, etc
+- The scrum roles: scrum master, scrum product owner and developers
+- The artifacts: sprint backlog, product backlog, burn down chart, log, etc
 - Scrum events: sprint planning, sprint review, daily stand-up, sprint retro, etc
 - Sprint
 
@@ -532,4 +532,6 @@ Tools are used to share the files and communicate within the team and other team
 
 ![Agile and DevOps Example](./images/agile_devops_example.png)
 
-The End!
+## The Whole Earth Catalog, Stewart Brand
+
+![Stay Hungry Stay Foolish](./images/stay-hungry-stay-foolish.jpg)
