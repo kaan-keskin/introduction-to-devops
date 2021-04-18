@@ -532,6 +532,6 @@ Tools are used to share the files and communicate within the team and other team
 
 ![Agile and DevOps Example](./images/agile_devops_example.png)
 
-## The Whole Earth Catalog, Stewart Brand
+## The Whole Earth Catalog (1972), Stewart Brand
 
 ![Stay Hungry Stay Foolish](./images/stay-hungry-stay-foolish.jpg)
